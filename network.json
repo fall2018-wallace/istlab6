@@ -15,7 +15,13 @@
             "target": "clean.R"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "mycensus",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
             "source": "clean.R",
             "target": "MergeArrests.R"
         }
@@ -35,6 +41,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 17:27:59",
+    "updated_at": "2018-10-04 17:29:30",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
