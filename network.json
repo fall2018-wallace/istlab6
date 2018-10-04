@@ -13,11 +13,6 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [],
-            "source": "clean.R",
-            "target": "MergeArrests.R.txt"
         }
     ],
     "nodes": [
@@ -28,11 +23,8 @@
             "assigned_to": "hrdarji23",
             "name": "clean.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "MergeArrests.R.txt"
         }
     ],
-    "updated_at": "2018-10-04 17:10:25",
+    "updated_at": "2018-10-04 17:10:42",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
