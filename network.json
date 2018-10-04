@@ -23,8 +23,12 @@
             "assigned_to": "hrdarji23",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:10:42",
+    "updated_at": "2018-10-04 17:10:57",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
