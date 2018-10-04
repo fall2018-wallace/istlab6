@@ -6,7 +6,7 @@ readStates<- function(states)
     num.row<-nrow(states)
     states<-states[-num.row,]
     states<-states[,-1:4]
-    colnames(sattes)<-c("stateName","population","popOver18","percentOver18")
+    colnames(states)<-c("stateName","population","popOver18","percentOver18")
     return(states)
 }  
 cleanCensus<- readStates(raw_data)
