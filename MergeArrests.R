@@ -1,2 +1,3 @@
 
 mycensus<-cleanCensus
+arrests<-USArrests
