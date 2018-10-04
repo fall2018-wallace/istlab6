@@ -25,15 +25,16 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "hrdarji23",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "desc": "",
             "name": "MergeArrests.R"
+        },
+        {
+            "assigned_to": "hrdarji23",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 17:11:15",
+    "updated_at": "2018-10-04 17:19:20",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
