@@ -103,6 +103,16 @@
             ],
             "source": "histogram.R",
             "target": "hist_assault.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histpop3",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "histogram_rape.png"
         }
     ],
     "nodes": [
@@ -158,6 +168,6 @@
             "name": "histogram_rape.png"
         }
     ],
-    "updated_at": "2018-12-10 05:35:16",
+    "updated_at": "2018-12-10 05:35:36",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
