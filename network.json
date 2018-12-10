@@ -140,8 +140,11 @@
         },
         {
             "name": "histogram_murder.png"
+        },
+        {
+            "name": "hist_assault.png"
         }
     ],
-    "updated_at": "2018-12-10 05:34:15",
+    "updated_at": "2018-12-10 05:34:35",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
