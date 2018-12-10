@@ -37,8 +37,12 @@
         },
         {
             "name": "cleaned_data.csv"
+        },
+        {
+            "desc": "",
+            "name": "mergedf.R"
         }
     ],
-    "updated_at": "2018-12-10 05:25:15",
+    "updated_at": "2018-12-10 05:25:53",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
