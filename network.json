@@ -17,13 +17,182 @@
         {
             "ports": [
                 {
-                    "input": "mycensus",
-                    "output": "cleanCensus",
-                    "type": "r_obj"
+                    "output": "func1",
+                    "type": "csv"
                 }
             ],
             "source": "clean.R",
-            "target": "MergeArrests.R"
+            "target": "cleaned_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "func1",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "mergedf.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergedf.R",
+            "target": "merge.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "merge.csv",
+            "target": "histogram.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "merge.csv",
+            "target": "barchart.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "merge.csv",
+            "target": "ScatterPlot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histpop",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "histogrampop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histpop1",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "histogram_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histpop2",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "hist_assault.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histpop3",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "histogram_rape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histpop3",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "hist_urbanpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "boxplot_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "boxplot_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart1",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "barchartperstate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart2",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "barchart_totalmurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart3",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "SortMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart4",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "percentOver18.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ScatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "ScatterPlot.R",
+            "target": "ScatterPlot.png"
         }
     ],
     "nodes": [
@@ -31,16 +200,78 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "desc": "",
-            "name": "MergeArrests.R"
-        },
-        {
             "assigned_to": "hrdarji23",
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "cleaned_data.csv"
+        },
+        {
+            "assigned_to": "hrdarji23",
+            "desc": "",
+            "name": "mergedf.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "merge.csv"
+        },
+        {
+            "assigned_to": "hrdarji23",
+            "desc": "",
+            "name": "histogram.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "hrdarji23",
+            "desc": "",
+            "name": "barchart.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "hrdarji23",
+            "desc": "",
+            "name": "ScatterPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "histogrampop.png"
+        },
+        {
+            "name": "histogram_murder.png"
+        },
+        {
+            "name": "hist_assault.png"
+        },
+        {
+            "name": "histogram_rape.png"
+        },
+        {
+            "name": "hist_urbanpop.png"
+        },
+        {
+            "name": "boxplot_pop.png"
+        },
+        {
+            "name": "boxplot_murder.png"
+        },
+        {
+            "name": "barchartperstate.png"
+        },
+        {
+            "name": "barchart_totalmurder.png"
+        },
+        {
+            "name": "SortMurder.png"
+        },
+        {
+            "name": "percentOver18.png"
+        },
+        {
+            "name": "ScatterPlot.png"
         }
     ],
-    "updated_at": "2018-10-04 17:29:30",
+    "updated_at": "2018-12-10 05:41:48",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
