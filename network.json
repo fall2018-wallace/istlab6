@@ -205,8 +205,11 @@
         },
         {
             "name": "boxplot_murder.png"
+        },
+        {
+            "name": "barchartperstate.png"
         }
     ],
-    "updated_at": "2018-12-10 05:37:51",
+    "updated_at": "2018-12-10 05:38:44",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
