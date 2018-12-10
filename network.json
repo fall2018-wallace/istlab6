@@ -123,6 +123,16 @@
             ],
             "source": "histogram.R",
             "target": "hist_urbanpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot1",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "boxplot_pop.png"
         }
     ],
     "nodes": [
@@ -184,6 +194,6 @@
             "name": "boxplot_pop.png"
         }
     ],
-    "updated_at": "2018-12-10 05:36:50",
+    "updated_at": "2018-12-10 05:37:12",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
