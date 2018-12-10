@@ -179,8 +179,11 @@
         },
         {
             "name": "hist_urbanpop.png"
+        },
+        {
+            "name": "boxplot_pop.png"
         }
     ],
-    "updated_at": "2018-12-10 05:36:16",
+    "updated_at": "2018-12-10 05:36:50",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
