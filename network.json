@@ -163,6 +163,16 @@
             ],
             "source": "barchart.R",
             "target": "barchart_totalmurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart3",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "SortMurder.png"
         }
     ],
     "nodes": [
@@ -236,6 +246,6 @@
             "name": "SortMurder.png"
         }
     ],
-    "updated_at": "2018-12-10 05:40:08",
+    "updated_at": "2018-12-10 05:40:21",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
