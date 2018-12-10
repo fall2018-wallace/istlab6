@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "cleaned_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "func1",
+                    "type": "csv"
+                }
+            ],
+            "source": "cleaned_data.csv",
+            "target": "mergedf.R"
         }
     ],
     "nodes": [
@@ -39,10 +49,12 @@
             "name": "cleaned_data.csv"
         },
         {
+            "assigned_to": "hrdarji23",
             "desc": "",
-            "name": "mergedf.R"
+            "name": "mergedf.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-10 05:25:53",
+    "updated_at": "2018-12-10 05:26:30",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
