@@ -133,6 +133,16 @@
             ],
             "source": "histogram.R",
             "target": "boxplot_pop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplot2",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "boxplot_murder.png"
         }
     ],
     "nodes": [
@@ -197,6 +207,6 @@
             "name": "boxplot_murder.png"
         }
     ],
-    "updated_at": "2018-12-10 05:37:34",
+    "updated_at": "2018-12-10 05:37:51",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
