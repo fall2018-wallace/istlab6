@@ -218,8 +218,11 @@
         },
         {
             "name": "barchartperstate.png"
+        },
+        {
+            "name": "barchart_totalmurder.png"
         }
     ],
-    "updated_at": "2018-12-10 05:39:02",
+    "updated_at": "2018-12-10 05:39:22",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
