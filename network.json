@@ -110,10 +110,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "hrdarji23",
             "desc": "",
-            "name": "ScatterPlot.R"
+            "name": "ScatterPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "histogrampop.png"
         }
     ],
-    "updated_at": "2018-12-10 05:31:05",
+    "updated_at": "2018-12-10 05:33:00",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
