@@ -143,6 +143,16 @@
             ],
             "source": "histogram.R",
             "target": "boxplot_murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barChart1",
+                    "type": "png"
+                }
+            ],
+            "source": "barchart.R",
+            "target": "barchartperstate.png"
         }
     ],
     "nodes": [
@@ -210,6 +220,6 @@
             "name": "barchartperstate.png"
         }
     ],
-    "updated_at": "2018-12-10 05:38:44",
+    "updated_at": "2018-12-10 05:39:02",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
