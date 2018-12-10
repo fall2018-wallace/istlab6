@@ -183,6 +183,16 @@
             ],
             "source": "barchart.R",
             "target": "percentOver18.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ScatterPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "ScatterPlot.R",
+            "target": "ScatterPlot.png"
         }
     ],
     "nodes": [
@@ -262,6 +272,6 @@
             "name": "ScatterPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 05:41:25",
+    "updated_at": "2018-12-10 05:41:48",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
