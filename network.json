@@ -1,0 +1,51 @@
+{
+    "collaborators": [
+        "hrdarji23"
+    ],
+    "created_at": "2018-10-04 16:43:38",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mycensus",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeArrests.R"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "hrdarji23",
+            "desc": "",
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "hrdarji23",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "cleaned_data.csv"
+        }
+    ],
+    "updated_at": "2018-12-10 05:24:45",
+    "url": "https://github.com/fall2018-wallace/istlab6"
+}
