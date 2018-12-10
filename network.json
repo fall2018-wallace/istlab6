@@ -73,6 +73,16 @@
             ],
             "source": "merge.csv",
             "target": "ScatterPlot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histpop",
+                    "type": "png"
+                }
+            ],
+            "source": "histogram.R",
+            "target": "histogrampop.png"
         }
     ],
     "nodes": [
@@ -119,6 +129,6 @@
             "name": "histogrampop.png"
         }
     ],
-    "updated_at": "2018-12-10 05:33:00",
+    "updated_at": "2018-12-10 05:33:20",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
