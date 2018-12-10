@@ -257,8 +257,11 @@
         },
         {
             "name": "percentOver18.png"
+        },
+        {
+            "name": "ScatterPlot.png"
         }
     ],
-    "updated_at": "2018-12-10 05:40:51",
+    "updated_at": "2018-12-10 05:41:25",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
