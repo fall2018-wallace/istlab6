@@ -82,8 +82,12 @@
             "desc": "",
             "name": "histogram.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "barchart.R"
         }
     ],
-    "updated_at": "2018-12-10 05:28:45",
+    "updated_at": "2018-12-10 05:29:36",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
