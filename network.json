@@ -43,6 +43,16 @@
             ],
             "source": "mergedf.R",
             "target": "merge.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "merge.csv",
+            "target": "histogram.R"
         }
     ],
     "nodes": [
@@ -68,10 +78,12 @@
             "name": "merge.csv"
         },
         {
+            "assigned_to": "hrdarji23",
             "desc": "",
-            "name": "histogram.R"
+            "name": "histogram.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-10 05:28:11",
+    "updated_at": "2018-12-10 05:28:45",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
