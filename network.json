@@ -53,8 +53,11 @@
             "desc": "",
             "name": "mergedf.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "merge.csv"
         }
     ],
-    "updated_at": "2018-12-10 05:26:30",
+    "updated_at": "2018-12-10 05:26:56",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
