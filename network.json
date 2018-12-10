@@ -17,17 +17,6 @@
         {
             "ports": [
                 {
-                    "input": "mycensus",
-                    "output": "cleanCensus",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "MergeArrests.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "func1",
                     "type": "csv"
                 }
@@ -43,12 +32,6 @@
         {
             "assigned_to": "hrdarji23",
             "desc": "",
-            "name": "MergeArrests.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "hrdarji23",
-            "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
         },
@@ -56,6 +39,6 @@
             "name": "cleaned_data.csv"
         }
     ],
-    "updated_at": "2018-12-10 05:25:02",
+    "updated_at": "2018-12-10 05:25:15",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
