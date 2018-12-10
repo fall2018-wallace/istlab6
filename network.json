@@ -63,6 +63,16 @@
             ],
             "source": "merge.csv",
             "target": "barchart.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergeDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "merge.csv",
+            "target": "ScatterPlot.R"
         }
     ],
     "nodes": [
@@ -104,6 +114,6 @@
             "name": "ScatterPlot.R"
         }
     ],
-    "updated_at": "2018-12-10 05:30:54",
+    "updated_at": "2018-12-10 05:31:05",
     "url": "https://github.com/fall2018-wallace/istlab6"
 }
